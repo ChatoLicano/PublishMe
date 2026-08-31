@@ -39,7 +39,7 @@
 
 
 ### 1. Usa esta plantilla de GitHub
-Ve al repositorio de PublishMe → dale click a **"Use this template"**
+Dale click a este link "https://github.com/ChatoLicano/PublishMe" → luego dale click al boton verde que dice **"Use this template"**
 (no "Fork") → elige un nombre para tu copia → márcalo como **Privado**.
 Esto te crea una copia 100% tuya e independiente, sin conexión al original.
 
