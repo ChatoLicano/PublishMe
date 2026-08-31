@@ -39,20 +39,52 @@
 
 
 ### 1. Usa esta plantilla de GitHub
-Dale click a este link "https://github.com/ChatoLicano/PublishMe" → luego dale click al boton verde que dice **"Use this template"**
-(no "Fork") → elige un nombre para tu copia → márcalo como **Privado**.
-Esto te crea una copia 100% tuya e independiente, sin conexión al original.
+1. Dale click a este link "https://github.com/ChatoLicano/PublishMe" → 2. luego dale click al boton verde que dice **"Use this template"**
+→ 3.luego dale a la opción **Create a new repository** → Selecciona **Repository name** y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Choose visibility → 4. y cambia de "Public" a "Private"
+Esto crea una copia 100% tuya e independiente de PublishMe.
 
 
 ### 2. Crea tu propia app en Meta for Developers
-1. Convierte tu cuenta de Instagram a **Business o Creator**
-   (Instagram → Configuración → Cuenta → Cambiar a cuenta profesional).
-2. Vincúlala a una **Página de Facebook** (créala gratis si no tienes una).
-3. Ve a [developers.facebook.com](https://developers.facebook.com) → **Mis
+1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
+2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
+3. Dale a las Tres Rayitas (Configuracion) en la parte superior derecha
+4. Busca en configuraciones y selecciona "Tipo de cuenta y herramientas"
+5. Selecciona "Tipo de Cuenta"
+6. Busca "Cambiar tipo de cuenta" (esta en letra pequeña y azul)
+7. Selecciona "Cambiar a cuenta de empresa"
+Listo, ahora ya tenemos tu cuenta de instagram como empresa
+
+1. Entra a Facebook
+3. Selecciona el Menú de Facebook (de icono ⌘)
+4. Dale click a "Paginas"
+5. Dale a "+ Crear pagina"
+6. Dale a "Pagina Publica"
+7. Dale a "Empezar"
+8. Ponle un Nombre y escribe una categoría (cualquiera categoría, el tipo de categoría no interesa por ahora)
+9. Dale a "Crear Pagina"
+10. Dale full a Siguiente y Omitir y al final dale Listo
+Listo ahora ya tenemos la Página de Facebook
+
+1. Entra a Facebook
+2. Dale click a Perfil que se encuentra en la parte superior derecha
+3. Selecciona la Página de Facebook
+4. Dale a "Configuración" que se encuentra al lado izquierdo
+5. En **Configuración y privacidad** busca "Cuentas vinculadas"
+6. Selecciona "Instagram No conectado"
+7. Haz click en "Conectar cuenta"
+8. Haz click en "Conectar"
+9. Haz click en "Continuar"
+10. Entra con la cuenta de instagram en la que vas a usar PublishMe
+11. Dale "Agregar"
+12. Dale a la "X" (cierrala)
+Ahora ya tienes conectado tu instagram donde vas a usar PublishMe y la página de facebook que hemos creado más antes
+
+
+15. Ve a [developers.facebook.com](https://developers.facebook.com) → **Mis
    apps** → **Crear app** → tipo "Business".
-4. En "Casos de uso", filtra por **"Administración de contenido"** y elige
+16. En "Casos de uso", filtra por **"Administración de contenido"** y elige
    **"Administrar mensajes y contenido en Instagram"**.
-5. Dentro de "Personalizar caso de uso" → "Configuración de la API con
+17. Dentro de "Personalizar caso de uso" → "Configuración de la API con
    inicio de sesión" → agrega los permisos:
    `instagram_business_basic`, `instagram_business_manage_insights`,
    `instagram_business_content_publish`.
