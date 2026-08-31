@@ -44,7 +44,7 @@
 Esto crea una copia 100% tuya e independiente de PublishMe.
 
 
-### 2. Crea tu propia app en Meta for Developers
+### 2. Configurar tu Instagram como Empresa
 1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
 2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
 3. Dale a las Tres Rayitas (Configuracion) en la parte superior derecha
@@ -54,6 +54,7 @@ Esto crea una copia 100% tuya e independiente de PublishMe.
 7. Selecciona "Cambiar a cuenta de empresa"
 Listo, ahora ya tenemos tu cuenta de instagram como empresa
 
+### Crear una Fan Page
 1. Entra a Facebook
 3. Selecciona el Menú de Facebook (de icono ⌘)
 4. Dale click a "Paginas"
@@ -65,6 +66,7 @@ Listo, ahora ya tenemos tu cuenta de instagram como empresa
 10. Dale full a Siguiente y Omitir y al final dale Listo
 Listo ahora ya tenemos la Página de Facebook
 
+### Vincular el "Instagram como Empresa" con la "Fan Page"
 1. Entra a Facebook
 2. Dale click a Perfil que se encuentra en la parte superior derecha
 3. Selecciona la Página de Facebook
