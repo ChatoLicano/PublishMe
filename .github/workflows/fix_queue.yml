@@ -1,0 +1,28 @@
+name: Fix Reel Queue
+
+on:
+  push:
+    paths:
+      - 'reel_queue.json'
+  workflow_dispatch: {}
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Arreglar formato y links de reel_queue.json
+        run: python fix_reel_queue.py
+
+      - name: Guardar el archivo arreglado
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-arreglo de reel_queue.json"
+          file_pattern: reel_queue.json
