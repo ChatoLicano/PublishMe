@@ -81,12 +81,60 @@ Listo ahora ya tenemos la Página de Facebook
 12. Dale a la "X" (cierrala)
 Ahora ya tienes conectado tu instagram donde vas a usar PublishMe y la página de facebook que hemos creado más antes
 
+### Crea tu propia app en Meta for Developers
+1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
+2. Arriba a la derecha, dale clic a "Mis apps".
+3. Dale clic a "Crear app".
+4. En "Detalles de la app", escribe un nombre (por ejemplo, el nombre de tu marca) y tu correo de contacto → dale "Siguiente".
+5. En "Casos de uso", en el menú de la izquierda "Filtrar por", dale clic a "Administración de contenido".
+6. De la lista que aparece a la derecha, marca la casilla de "Administrar mensajes y contenido en Instagram" → dale "Siguiente".
+7. En "Negocio", selecciona la cuenta de Instagram donde quieres usar PublishMe → "Siguiente".
+8. En "Requisitos" dale a "Siguiente"
+9. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
+Ahora creado tu app en meta for developers, ya podemos extraer los 5 permisos que tu sistema necesita para funcionar
 
-15. Ve a [developers.facebook.com](https://developers.facebook.com) → **Mis
+### Agrega los permisos necesarios
+11. Luego cargara un poco y después de eso te aparecera el Panel de tu app
+12. En el Panel,en el menú izquierdo dale clic a Casos de uso ("al ícono de lápiz ✏️") → luego "Personalizar".
+13. Busca un botón azul "Add all required permissions" → y dale clic.
+14. Ahora al ve al lado derecho y busca algo que diga "Permisos y funciones" → y dale clic.
+15. Busca en la lista algo que diga "instagram_business_manage_insights" → y dale clic al "+ Agregar" que esta a su lado si te sale "Se produjo un error. Vuelve a intentarlo más tarde." es porque tienes que darle 2 veces al "+ Agregar" (no se porque se soluciona asi, pero asi se soluciona el problema)
+16. Busca en la lista algo que diga "instagram_business_content_publish" → y dale clic al "+ Agregar" que esta a su lado si te sale "Se produjo un error. Vuelve a intentarlo más tarde." es porque tienes que darle 2 veces al "+ Agregar" (no se porque se soluciona asi, pero asi se soluciona el problema)
+Con esto ya tienes los 5 permisos para que el sistema haga su trabajo
+
+### Agrégate como tu propio "Instagram tester"
+1. En el menú izquierdo del panel de tu app, dale clic a "Roles de la app" (Enter los iconos de Rueda y Campana)
+2. Luego dale a "Roles".
+3. Dale al boton azul "Agregar personas".
+4. Marca el que dice "Evaluador de Instagram"
+5. En el campo de búsqueda de abajo, escribe tu propio usuario de Instagram (el mismo que configuraste como Empresa en el paso 2) → selecciónalo.
+6. Dale clic a "Agregar".
+7. Ahora, ve a https://www.instagram.com/ he inicia sesion con esa misma cuenta
+8. Ve a Perfil → Configuración → busca y entra a "Permisos del sitio web"
+9. Dale a "Aplicaciones y sitios web" → "Invitaciones para evaluadores"
+10. Lee ese texto (si quieres) y luego dale a "Aceptar"
+Ahora ya te configuraste como Tester, esto te permitirá hacer el siguiente paso
+
+
+1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
+2. Arriba a la derecha, dale clic a "Mis apps".
+3. Haz click a tu App (el nombre de tu app aparece alli, dale click a el nombre de tu app)
+4. En la parte derecha hazle click a "Casos de Uso" → "Personalizar".
+5. Baja hasta la sección "2. Generar tokens de acceso" → y dale click.
+6. Dale clic a "Agregar cuenta" → dale "Continuar" en el aviso que aparece.
+7. Se abre una ventana de Instagram: inicia sesión con la cuenta de instagram (el mismo que configuraste como Empresa en el paso 2, te lo hago recordar por si las moscas)
+8. 
+
+
+
+
+12. Luego en tu celular entra a Instagram
+
+17. Ve a [developers.facebook.com](https://developers.facebook.com) → **Mis
    apps** → **Crear app** → tipo "Business".
-16. En "Casos de uso", filtra por **"Administración de contenido"** y elige
+18. En "Casos de uso", filtra por **"Administración de contenido"** y elige
    **"Administrar mensajes y contenido en Instagram"**.
-17. Dentro de "Personalizar caso de uso" → "Configuración de la API con
+19. Dentro de "Personalizar caso de uso" → "Configuración de la API con
    inicio de sesión" → agrega los permisos:
    `instagram_business_basic`, `instagram_business_manage_insights`,
    `instagram_business_content_publish`.
