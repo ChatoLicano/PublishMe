@@ -28,7 +28,7 @@ Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 6. Busca "Cambiar tipo de cuenta" (esta en letra pequeña y azul)
 7. Selecciona "Cambiar a cuenta de empresa"
 Listo, ahora ya tenemos tu cuenta de instagram como empresa
-
+****
 **3. Crear una Fan Page (Pagina de Facebook)**
 1. Entra en Facebook
 2. Selecciona el Menú de Facebook (de icono ⌘)
@@ -40,7 +40,7 @@ Listo, ahora ya tenemos tu cuenta de instagram como empresa
 8. Dale a "Crear Página"
 9. Dale full a Siguiente y Omitir y al final dale
 Listo ahora ya tenemos la Página de Facebook
-
+****
 **4. Vincular tu Instagram configurado como Empresa y la Fan Page**
 1. Entra en Facebook
 2. Dale click a Perfil que se encuentra en la parte superior derecha
