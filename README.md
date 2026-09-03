@@ -224,7 +224,8 @@ Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es m
 20. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
-Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas) acaba de comenzar...
+Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas)
+acaba de comenzar...
 ****
 **Agrega tu primer reel a la cola de espera**
 1. Entra a https://github.com/
