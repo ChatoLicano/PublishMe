@@ -10,9 +10,9 @@
 5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
 6. Media hora a una hora de tu tiempo, sin prisa, la primera vez.
 
-### Instalación paso a paso
+### INSTALACION PASO A PASO
 
-**1. Usa esta plantilla de GitHub**
+**1. USA ESTA **PLANTILLA** DE GITHUB**
 1. Dale clic a este enlace " https://github.com/ChatoLicano/PublishMe "
 2. Luego dale clic al botón verde que dice "Usar esta plantilla"
 3. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
@@ -20,6 +20,7 @@
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 
 **2. Configurar tu Instagram como Empresa**
+****
 1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
 2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
 3. Dale a las Tres Rayitas (Configuración) en la parte superior derecha
