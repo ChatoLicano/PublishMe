@@ -14,10 +14,11 @@
 
 **1. USA ESTA **PLANTILLA** DE GITHUB**
 1. Entra a https://github.com/login
-2. Dale clic a este enlace " https://github.com/ChatoLicano/PublishMe "
-3. Luego dale clic al botón verde que dice "Usar esta plantilla"
-4. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
-5. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
+2. Inicia sesión con tu cuenta de github o registrate
+3. Ahora vuelve aca y dale clic a este enlace " https://github.com/ChatoLicano/PublishMe"
+4. Luego dale clic al botón verde que dice "Usar esta plantilla"
+5. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
+6. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 ****
 **2. Configurar tu Instagram como Empresa**
