@@ -17,57 +17,61 @@
 2. Inicia sesión con tu cuenta de github o registrate
 3. Ahora vuelve aca y dale clic a este enlace " https://github.com/ChatoLicano/PublishMe"
 4. Luego dale clic al botón verde que dice "Use this template"
-5. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
-6. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
+5. Luego dale a la opción "Create a new repository" → Escribe en "Repository name" PublishMe
+6. Ve a Configuración → y cambia de "Public" a "Private"
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 ****
 **2. Configurar tu Instagram como Empresa**
-1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
-2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
+1. Entra a la cuenta de instagram donde quieres usar PublishMe (te recomiendo entrar por tu celular)
+2. En la parte de abajo donde esta el Feed, Reel, Mensajes Directos, Explorar y Perfil, dale a "Perfil"
 3. Dale a las Tres Rayitas (Configuración) en la parte superior derecha
-4. Busca en configuraciones y selecciona "Tipo de cuenta y herramientas"
+4. Busca en la lista "Tipo de cuenta y herramientas"
 5. Selecciona "Tipo de Cuenta"
-6. Busca "Cambiar tipo de cuenta" (esta en letra pequeña y azul)
+6. Busca "Cambiar tipo de cuenta" (esta en letras pequeñas y en azul)
 7. Selecciona "Cambiar a cuenta de empresa"
 Listo, ahora ya tenemos tu cuenta de instagram como empresa
 ****
 **3. Crear una Fan Page (Pagina de Facebook)**
-1. Entra en Facebook
+1. Inicia sesion en Facebook
 2. Selecciona el Menú de Facebook (de icono ⌘)
 3. Dale haga clic en "Páginas"
 4. Dale a "+ Crear página"
 5. Dale a "Pagina Publica"
-6. Dale a "Empezar"
-7. Ponle un Nombre y escribe una categoría (cualquiera categoría, el tipo de categoría no interesa por ahora)
-8. Dale a "Crear Página"
-9. Dale full a Siguiente y Omitir y al final dale
-Listo ahora ya tenemos la Página de Facebook
+6. Dale a "Siguiente"
+7. Dale a "Empezar"
+8. Ponle un NOMBRE y escribe en categoría "Creador Digital" (cualquiera categoría, el tipo de categoría no interesa por ahora)
+9. Dale a "Crear Página"
+10. Dale full a Siguiente y luego a Omitir → hasta que te aparezca "Listo"
+11. Y le das a "Listo"
+Ahora ya tenemos la Fan Page
 ****
 **4. Vincular tu Instagram configurado como Empresa y la Fan Page**
-1. Entra en Facebook
-2. Dale click a Perfil que se encuentra en la parte superior derecha
-3. Selecciona la Página de Facebook
-4. Dale a "Configuración" que se encuentra al lado izquierdo
-5. En Configuración y privacidad busca "Cuentas vinculadas"
+1. Entra a tu Fan Page (Inicia sesion en Facebook → haz click a tu Perfil → Selecciona tu Fan Page)
+4. Dale a "Configuración" en lado parte izquierda
+5. En la lista busca "Cuentas vinculadas"
 6. Selecciona "Instagram No conectado"
 7. Haz clic en "Conectar cuenta"
 8. Haz clic en "Conectar"
 9. Haz click en "Continuar"
-10. Entra con la cuenta de instagram en la que vas a usar PublishMe
+10. Inicia sesión con la cuenta de instagram donde quieres usar PublishMe
 11. Dale "Agregar"
-12. Dale a la "X" (cierrala) Ahora ya tienes conectado tu instagram donde vas a usar PublishMe y la página de facebook que hemos creado más antes"
-Listo, ahora ya tenemos vinculado tu Instagram donde vas a usar publishme con la Fan Page, esto nos va a permitir crear una app en meta for developers para asi obtener los permisos necesarios para que el sistema pueda arrancar
+12. Te va a salir una ventana. Dale a la "X" (cerrarla)
+Ahora ya tienes conectado tu instagram (donde quieres usar PublishMe) con la Fan Page"
+Listo, esto nos va a permitir crear una app en meta for developers para poder así obtener los permisos necesarios que nuestro sistema requiere para arrancar
 ****
 **5. Crea tu propia app en Meta for Developers**
-1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
-2. Arriba a la derecha, dale clic a "Mis apps".
+1. Ve a [developers.facebook.com](https://developers.facebook.com).
+2. Dale clic a "Mis apps" que se encuentra en la parte superior derecha.
 3. Dale clic a "Crear app".
-4. En "Detalles de la app", escribe un nombre (anota el nombre algun lado, porque lo vamos a utilizar en el paso "8. Consigue tu IG_USER_ID") y tu correo de contacto → dale "Siguiente".
-5. En "Casos de uso", en el menú de la izquierda "Filtrar por", dale clic a "Administración de contenido".
-6. De la lista que aparece a la derecha, marca la casilla de "Administrar mensajes y contenido en Instagram" → dale "Siguiente".
-7. En "Negocio", selecciona la cuenta de Instagram donde donde quieres usar PublishMe
-8. En "Requisitos" dale a "Siguiente"
-9. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
+4. En "Nombre de la app", escribe un nombre para tu app (anota el nombre en algun lado, lo necesitaremos para el paso "8. Consigue tu IG_USER_ID")
+5. En "Correo electrónico de contacto de la app" pon un correo para que MetaForDevelopers te pueda enviar notficaciones
+6. Luego dale a "Siguiente".
+7. Luego dale clic a "Administración de contenido".
+8. De la lista que aparece a la derecha, marca la casilla "Administrar mensajes y contenido en Instagram"
+9. Y dale a "Siguiente".
+10. En "Negocio", selecciona el portafolio donde se encuentra la cuenta de Instagram donde quieres usar PublishMe (si no sabes cual portafolio es la de la cuenta de instagram donde quieres usar PublishMe, desvincula y vincula tu cuenta de instagram donde quieres usar publishme con tu fan page y en el proceso aparece una ventana donde te dira el nombre del portafolio donde )
+11. En "Requisitos" dale a "Siguiente"
+12. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
 Listo, ahora esto nos va a permitir agregar los 5 permisos necesarios para que el sistema arranque
 ****
 **6. Agrega los permisos necesarios**
