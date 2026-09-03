@@ -55,7 +55,7 @@ Listo ahora ya tenemos la Página de Facebook
 11. Dale "Agregar"
 12. Dale a la "X" (cierrala) Ahora ya tienes conectado tu instagram donde vas a usar PublishMe y la página de facebook que hemos creado más antes"
 Listo, ahora ya tenemos vinculado tu Instagram donde vas a usar publishme con la Fan Page, esto nos va a permitir crear una app en meta for developers para asi obtener los permisos necesarios para que el sistema pueda arrancar
-
+****
 **5. Crea tu propia app en Meta for Developers**
 1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
 2. Arriba a la derecha, dale clic a "Mis apps".
@@ -67,7 +67,7 @@ Listo, ahora ya tenemos vinculado tu Instagram donde vas a usar publishme con la
 8. En "Requisitos" dale a "Siguiente"
 9. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
 Listo, ahora esto nos va a permitir agregar los 5 permisos necesarios para que el sistema arranque
-
+****
 **6. Agrega los permisos necesarios**
 1. En el panel de tu app, busca en el menú izquierdo "Casos de uso" (al ícono de lápiz ✏️) → y dale click
 2. Dale click a "Personalizar".
@@ -76,7 +76,7 @@ Listo, ahora esto nos va a permitir agregar los 5 permisos necesarios para que e
 5. Busca en la lista "instagram_business_manage_insights" y dale clcik al "+ Agregar" que esta alado suyo
 6. Busca en la lista "instagram_business_content_publish" y dale clcik al "+ Agregar" que esta alado suyo
 Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranque
-
+****
 **7. Agrégate como tu propio "Instagram tester"**
 1. Dale clic a "Roles de la app" (esta en el lado izquierdo, entre los iconos de Rueda y Campana)
 2. Dale clck a "Roles".
@@ -90,7 +90,7 @@ Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranq
 11. Dale a "Invitaciones para evaluadores"
 12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"
 Listo, ahora con este paso, ya no te a aparecerá el error de "Rol de desarrollador insuficiente" cuando vayamos a generar el token
-
+****
 **8. Genera tu token de acceso**
 1. Vuelve a darle a "Casos de uso" → "Personalizar"
 2. Baja hasta la sección "2. Generar tokens de acceso" → y dale a "Agregar cuenta" → y luego dale a "Continuar" en el aviso que aparece
@@ -105,7 +105,7 @@ Listo, ahora con este paso, ya no te a aparecerá el error de "Rol de desarrolla
 11. Abre un bloc de notas y pega eso que copiaste
 12. Listo, acabas de obtener EL TOKEN DE ACCESO. Guarda el bloc de notas y no lo compartas con nadie
 Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que necesita el sistema para funcionar
-
+****
 **9. Consigue tu IG_USER_ID**
 1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
 2. Arriba a la derecha, dale clic a "Mis apps".
@@ -115,7 +115,7 @@ Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que
 6. En "Cuenta de Instagram" fijate que hay un numero largo de 17 numeros, cópialo y pégalo a un bloc de notas
 7. Listo, acbas de obtener tu IG_USER_ID
 Listo, ahora ya tenenos el IG_USER_ID, que es la 2da variable de las 5 variables que necesita el sistema para funcionar 
-
+****
 **10. Consigue tu REEL_MEDIA_ID**
 1. Haz click a este enlace [Graph API Explorer](https://developers.facebook.com/tools/explorer)
 2. En "App de Meta" (panel derecho - en letras chiquitas) → elige la App que Creaste (en el paso 5. **Crea tu propia app en Meta for Developers**)
@@ -125,7 +125,7 @@ Listo, ahora ya tenenos el IG_USER_ID, que es la 2da variable de las 5 variables
 6. Te va a devolver una lista de tus publicaciones recientes con sus IDs
 7. Copia el primer ID el que se encuentra mas arriba → y pégalo en un bloc de notas
 Listo, ahora ya tienes el REEL_MEDIA_ID, que es la 3ra variable de las 5 variables que necesita el sistema para funcionar
-
+****
 **11. Crea tu bot de Telegram que te notificara de todo lo que le ocurra al sistema y genera el TELEGRAM_BOT_TOKEN**
 1. Instala Telegram y crea una cuenta o inicia sesion
 2. Dale a la "lupa"
@@ -142,18 +142,17 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 9. COPIA lo que este OCUPANDO el "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN que necesitamos
 10. Pega el TELEGRAM_BOT_TOKEN en un bloc de notas para guardarlo
 Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKEN, que es la 4ta variable de las 5 variables que necesita el sistema para funcionar
-
+****
 **12. Genera el TELEGRAM_CHAT_ID**
 1. Ve a Google
 2. Remplaza en este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" remplazando el "{TELEGRAM_BOT_TOKEN}" por tu TELEGRAM_BOT_TOKEN que generamos en el paso 11 y pon el nuevo link en el navegador
-3. Dale Enter (Si te bota:<br>
+3. Dale Enter (Si te bota:
                           {<br>
                            "ok": false,<br>
                            "error_code": 401,<br>
                           "description": "Unauthorized"<br>
                           }<br>
                           Revisa el https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates que te dije que modificaras, probablemente este mal)
-
 5. Te deberia salir: {<br>
                        "ok": true,<br>
                        "result": [ <br>
@@ -168,12 +167,10 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                                ... <br>
                              }, <br>
                              ... <br>
-
 6. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
 Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar
-
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
-
+****
 **13. Configura los 5 Secrets en GitHub**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
@@ -190,18 +187,18 @@ Ahora
 10. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
 11. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
 Listo, lo que acabamos de hacer es integrar las 5 variables en el sistema. Ahora solo falta hacer que el sistema guarde su propio progreso, permitir que el sistema pueda subir videos y caption y disparar automáticamente el sistema para que no tengas que hacerlo manualmente
-
+****
 **14. Haz que el sistema guarde su propio progreso. Activa permisos de escritura para Actions**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
 3. Dale click donde diga "Settings" → "Actions" → "General" → "Workflow permissions" → selecciona "Read and write permissions" → y luego le das al boton "Save"
 Con esto le dotas al sistema de guardar su propio progreso
-
+****
 **15. Permitire que el sistema pueda subir videos y captions. Crea una cuenta en Cloudinary**
 1. Entra al link [cloudinary.com](https://cloudinary.com)
 2. Create una cuenta en cloudinary
 Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es mucho mas barato y practico
-
+****
 **16. Crea un disparador automático para el sistema. Create una cuenta y configura en cron-jub.org**
 1. Entra al link [github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)
 2. Dale clic a "Generate new token".
@@ -227,9 +224,9 @@ Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es m
 19. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
 20. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
-
+****
 Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y ya no en funcion a las fechas) acaba de comenzar...
-
+****
 **Agrega tu primer reel a la cola de espera**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
@@ -242,9 +239,9 @@ Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion 
 11. Donde dice TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION pones lo que vas a poner en la descripción de tu video, remplaza ese TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION por la descripción de tu video
 12. Luego le das a "Commit changes o Confirmar los cambios"
 Listo, haz esto con cada video y ya estarás subiendo tus videos al sistema y se irán publicando en funcion al rendimineto<br>
-
+****
 Ahora es hora de configurar el sistema para que decida en función a tus criterios<br>
-
+****
 **Ajusta PublishMe a tu estilo de creador**
 1. Busca el archivo que dice "reel_death_trigger.py"
 2. Entre todo el codigo busca lineas que digan:<br>
