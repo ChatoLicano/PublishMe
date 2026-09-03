@@ -217,7 +217,6 @@ Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es m
 15. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
 16. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
 17. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
-<br>
  Clave : Authorization - Valor : Bearer {TU_TOKEN} (escribe "Bearer"y seguido tu token "github_pat_..." )<br>
  Clave : Accept - Valor : application/vnd.github+json<br>
 18. En "Cuerpo de la solicitud", pega exactamente esto: "{"ref":"main"}"
