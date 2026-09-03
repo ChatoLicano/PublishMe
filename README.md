@@ -1,7 +1,7 @@
   
 
 ### ¿COMO INSTALAR PUBLISH ME?
-**INSTALACION PASO A PASO**
+**INSTALACION PASO A PASO**<BR>
 **RESUMEN DE ACCIONES QUE EJECUTAREMOS PARA LA INSTALACIÓN**
 1. Una cuenta de Instagram Business o Creator , vinculada a una página de Facebook .
 2. Una cuenta de GitHub (gratis).
