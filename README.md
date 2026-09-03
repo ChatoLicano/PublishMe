@@ -256,8 +256,8 @@ Ahora es hora de configurar el sistema para que decida en función a tus criteri
    que mas que valores son patrones, patrones<br>
    en mis contenidos como creador de<br>
    contenido.<br>
-   No hay valores "correctos" universales —<br>
-   Experimenta con los tuyos.<br>
+   No hay valores "correctos" universales — Experimenta<br>
+   con los tuyos.<br>
 
    **SLOPE_THRESHOLD**<br>
 
