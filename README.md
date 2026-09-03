@@ -335,57 +335,17 @@ Ahora es hora de configurar el sistema para que decida en función a tus criteri
    más que un reel normal.<br>
 
 
+**Problemas conocidos y su solucion**
+"Rol de desarrollador insuficiente" al generar el token → Falta agregarte como Instagram tester (paso 7) y aceptar la invitación desde el celular.
 
+"403 Forbidden" / "Resource not accessible by personal access token" al probar el cronjob de cron-job.org → El token de GitHub del paso 15 quedó con el permiso de Actions en "Read-only" en vez de "Read and write". Revísalo en github.com/settings/tokens?type=beta → abre tu token → confirma que "Actions" diga "Read and write" (si no, créalo de nuevo con el permiso correcto, no se puede editar uno ya creado).
 
+El archivo reel_queue.json da error de JSON al correr el script → Probablemente pegaste texto con saltos de línea "crudos". Espera a que corra fix_queue.yml automáticamente (unos segundos después del commit), o corre fix_reel_queue.py manualmente.
 
+El sistema no publica aunque el reel claramente ya murió → Revisa el reel_state.json: compara el ts de la última lectura contra la hora actual. Si el intervalo es mucho mayor a 15 min, revisa que cron-job.org esté activo y que el token no haya expirado.
 
+Error "400 Bad Request" al publicar → Con la versión actual del script, el mensaje de Telegram te dice el motivo real (caption muy largo, video no descargable, etc.), no solo el código.
 
+**Aviso importante sobre datos**
+Cada instancia de PublishMe opera bajo la responsabilidad de quien la instala: tus credenciales, tu app de Meta, tu cumplimiento de las políticas de Meta/Instagram. PublishMe no almacena ni tiene acceso a tus datos a menos que me los proporciones personalmente, de no ser el caso que me los envies, los datos quedan protegidos contigo y a tu decision de con quien quieras compartirlos
 
-
-## Ajusta Pulso a tu estilo de creador
-
-Todos estos valores viven al inicio de `reel_death_trigger.py`:
-
-```python
-SLOPE_THRESHOLD = 2.0          # views/min mínimo antes de sospechar
-CONSECUTIVE_READINGS_REQUIRED = 3   # rachas malas seguidas para confirmar
-GRACE_PERIOD_HOURS = 3         # horas de gracia al nacer un reel
-MERIT_GRACE_TRIGGER_SLOPE = 5.0     # views/min que activan la tolerancia por mérito
-MERIT_GRACE_HOURS = 24         # horas de congelamiento que gana un reel excepcional
-```
-
-No hay valores "correctos" universales — experimenta con los tuyos.
-
----
-
-## Solución de problemas comunes
-
-**"Rol de desarrollador insuficiente" al generar el token**
-→ Falta agregarte como Instagram tester (paso 3) y aceptar la invitación
-desde el celular.
-
-**El archivo `reel_queue.json` da error de JSON al correr el script**
-→ Probablemente pegaste texto con saltos de línea "crudos". Espera a que
-corra `fix_queue.yml` automáticamente (unos segundos después del commit), o
-corre `fix_reel_queue.py` manualmente.
-
-**El sistema no publica aunque el reel claramente ya murió**
-→ Revisa el `reel_state.json`: compara el `ts` de la última lectura contra
-la hora actual. Si el intervalo es mucho mayor a 15 min, revisa que
-cron-job.org esté activo y que el token no haya expirado.
-
-**Error "400 Bad Request" al publicar**
-→ Con la versión actual del script, el mensaje de Telegram te dice el motivo
-real (caption muy largo, video no descargable, etc.), no solo el código.
-
----
-
-## Aviso importante
-
-Cada instancia de Pulso opera bajo la responsabilidad de quien la instala:
-tus credenciales, tu app de Meta, tu cumplimiento de las políticas de
-Meta/Instagram. Pulso no almacena ni tiene acceso a los datos de nadie más
-que de quien lo instala en su propio repositorio.
-
-Ojo <o> : Cada creador monta su propia instancia, con sus propios tokens y su propia app de Meta.
-Lo que quiere decir que Publih Me usara tus crdenciales pero estaran encriptadas a los "ojos" de PublishMe (todo vive en tu cuenta de GitHub, y ningun otro a excepcion tuya tiene control a tu informacion).
