@@ -252,9 +252,10 @@ Ahora es hora de configurar el sistema para que decida en función a tus criteri
    **MERIT_GRACE_HOURS** = 24<br>
    <br>
    Estos valores viven dentro de reel_death_trigger.py.<br>
-   Estos valores (el 2.0,3,3,5.0,24) son valores míos<br>
+   Estos valores (2.0 , 3 , 3 , 5.0 , 24) son valores míos<br>
    que mas que valores son patrones, patrones<br>
-   en mis contenidos como creador de contenido.<br>
+   en mis contenidos<br>
+   como creador de contenido.<br>
    No hay valores "correctos" universales —<br>
    Experimenta con los tuyos.<br>
 
