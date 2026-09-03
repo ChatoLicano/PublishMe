@@ -18,9 +18,8 @@
 3. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
 4. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
-
-**2. Configurar tu Instagram como Empresa**
 ****
+**2. Configurar tu Instagram como Empresa**
 1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
 2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
 3. Dale a las Tres Rayitas (Configuración) en la parte superior derecha
