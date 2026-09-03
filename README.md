@@ -9,7 +9,7 @@
 4. Una cuenta de Telegram (para recibir notificaciones).
 5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
 6. Media hora a una hora de tu tiempo, sin prisa, la primera vez.
-
+****
 ### INSTALACION PASO A PASO
 
 **1. USA ESTA **PLANTILLA** DE GITHUB**
