@@ -133,7 +133,7 @@ Listo, ahora ya tienes el REEL_MEDIA_ID, que es la 3ra variable de las 5 variabl
 4. Selecciona una cuenta que diga "BotFather y con una icono de cuenta verificada" (BotFather es una cuenta verificada por telegram) → dale clic
 5. Escribe "/start" luego te respondera → y tu escrbiras "/newbot"
 6. Luego te dira "Bien. Ahora elijamos un nombre de usuario para tu bot. Debe terminar en «bot». Por ejemplo: TetrisBot o tetris_bot."
-7. Nombra a tu bot con un nombre y luego añadele ´bot´ → debe terminar en <bot> sino BotFather te votara "Sorry, this username is invalid" (Anecdota: he puesto AutomatizacionReelsBot y me boto error, puse lo mismo insistiendole y me boto error nuevamente, probe con "MiNombre"ReelMonitor_bot y me acepto y respondio)
+7. Nombra a tu bot con un nombre y luego añadele ´bot´ → debe terminar en "bot" sino BotFather te votara "Sorry, this username is invalid" (Anecdota: he puesto AutomatizacionReelsBot y me boto error, puse lo mismo insistiendole y me boto error nuevamente, probe con "MiNombre"ReelMonitor_bot y me acepto y me respondio)
 8. Te enviara un mensaje que se vera asi " Done! Congratulations on your new bot. You will find it at t.me/"MiNombre"ReelMonitor_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
 Use this token to access the HTTP API:
   **547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**  
