@@ -1,6 +1,6 @@
   
 
-###### ¿COMO INSTALAR PUBLISH ME?
+### ¿COMO INSTALAR PUBLISH ME?
 
 **⚠️Cosas que necesitas (requisitos previos) para instalar PublishMe**
 1. Una cuenta de Instagram Business o Creator , vinculada a una página de Facebook .
