@@ -1,8 +1,8 @@
   
 
 ### ¿COMO INSTALAR PUBLISH ME?
-**INSTALACION PASO A PASO**<BR>
-**RESUMEN DE ACCIONES QUE EJECUTAREMOS PARA LA INSTALACIÓN**
+
+**RESUMEN DE ACCIONES QUE EJECUTAREMOS EN LA INSTALACIÓN PASO A PASO**
 1. Una cuenta de Instagram Business o Creator , vinculada a una página de Facebook .
 2. Una cuenta de GitHub (gratis).
 3. Una cuenta de Cloudinary (gratis) para alojar tus vídeos con un enlace público.
