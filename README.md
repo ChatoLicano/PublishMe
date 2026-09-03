@@ -240,7 +240,7 @@ acaba de comenzar...
 12. Luego le das a "Commit changes o Confirmar los cambios"
 Listo, haz esto con cada video y ya estarás subiendo tus videos al sistema y se irán publicando en funcion al rendimineto<br>
 ****
-Ahora es hora de configurar el sistema para que decida en función a tus criterios<br>
+Ahora es hora de configurar el sistema para que decida en función a tus criterios como creador<br>
 ****
 **Ajusta PublishMe a tu estilo de creador**
 1. Busca el archivo que dice "reel_death_trigger.py"
