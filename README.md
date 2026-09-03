@@ -1,4 +1,14 @@
+  
 
+### ¿COMO INSTALAR PUBLISH ME?
+
+**⚠️Cosas que necesitas (requisitos previos) para instalar PublishMe**
+1. Una cuenta de Instagram Business o Creator , vinculada a una página de Facebook .
+2. Una cuenta de GitHub (gratis).
+3. Una cuenta de Cloudinary (gratis) para alojar tus vídeos con un enlace público.
+4. Una cuenta de Telegram (para recibir notificaciones).
+5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
+6. Media hora a una hora de tu tiempo, sin prisa, la primera vez.
 
 ### Instalación paso a paso
 
