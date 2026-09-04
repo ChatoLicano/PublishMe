@@ -69,25 +69,25 @@ Listo, esto nos va a permitir crear una app en meta for developers para poder as
 7. Luego dale clic a "Administración de contenido".
 8. De la lista que aparece a la derecha, marca la casilla "Administrar mensajes y contenido en Instagram"
 9. Y dale a "Siguiente".
-10. En "Negocio", selecciona el portafolio donde se encuentra la cuenta de Instagram donde quieres usar PublishMe (si no sabes cual portafolio es la de la cuenta de instagram donde quieres usar PublishMe, desvincula y vincula tu cuenta de instagram donde quieres usar publishme con tu fan page y en el proceso aparece una ventana donde te dira el nombre del portafolio donde )
-11. En "Requisitos" dale a "Siguiente"
-12. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
-Listo, ahora esto nos va a permitir agregar los 5 permisos necesarios para que el sistema arranque
+10. En "Negocio", selecciona el portafolio donde se encuentra tu cuenta de Instagram donde quieres usar PublishMe (si no sabes el portafolio donde se encuentra tu cuenta de instagram donde quieres usar PublishMe, desvincula y vincula tu cuenta de instagram que quieres usar con tu fan page, ...y en el proceso de vincular..., en una ventana te mostrará el nombre del portafolio donde se encuentra tu cuenta de instagram)
+11. Luego en "Requisitos" dale a "Siguiente"
+12. En "Resumen", revisa que todo esté bien → y luego de que hayas revisado → dale a "Crear app" (puede pedirte tu contraseña de Facebook para confirmar).
+Listo, ahora esta app sera un medio que nos permitira agregar los 5 permisos necesarios para que el sistema arranque
 ****
 **6. Agrega los permisos necesarios**
 1. En el panel de tu app, busca en el menú izquierdo "Casos de uso" (al ícono de lápiz ✏️) → y dale click
 2. Dale click a "Personalizar".
 3. Busca un boton azul "Add all required permissions" → y dale click
 4. Ahora busca en la parte izquierda algo que diga "Permisos y funciones" → y dale click
-5. Busca en la lista "instagram_business_manage_insights" y dale clcik al "+ Agregar" que esta alado suyo
-6. Busca en la lista "instagram_business_content_publish" y dale clcik al "+ Agregar" que esta alado suyo
+5. Busca en la lista "instagram_business_manage_insights" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con eito
+6. Busca en la lista "instagram_business_content_publish" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con eito
 Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranque
 ****
 **7. Agrégate como tu propio "Instagram tester"**
 1. Dale clic a "Roles de la app" (esta en el lado izquierdo, entre los iconos de Rueda y Campana)
 2. Dale clck a "Roles".
 3 Dale clic al botón azul "Agregar personas".
-4. En la ventana que se abre, marca la casilla marca "Evaluador de Instagram" (NO el "Evaluador" sino "Evaluador de Instagram")
+4. En la ventana que se abre, marca la casilla "Evaluador de Instagram" (NO el "Evaluador" sino "Evaluador de Instagram")
 6. En el campo de búsqueda de abajo → escribe el nombre de usuario de la cuenta de Instagram donde quieres usar PublishMe (el mismo que configuraste como Empresa en el paso 2) → luego te aparecerá tu cuenta de instagram → hazle click a tu cuenta de instagram.
 7. Dale clic a "Agregar".
 8. Ahora entra a https://www.instagram.com/ e inicia sesion con la misma cuenta de instagram.
