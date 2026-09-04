@@ -87,29 +87,27 @@ Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranq
 1. Dale clic a "Roles de la app" (esta en el lado izquierdo, entre los iconos de Rueda y Campana)
 2. Dale clck a "Roles".
 3 Dale clic al botón azul "Agregar personas".
-4. En la ventana que se abre, marca la casilla "Evaluador de Instagram" (NO el "Evaluador" sino "Evaluador de Instagram")
-6. En el campo de búsqueda de abajo → escribe el nombre de usuario de la cuenta de Instagram donde quieres usar PublishMe (el mismo que configuraste como Empresa en el paso 2) → luego te aparecerá tu cuenta de instagram → hazle click a tu cuenta de instagram.
+4. En la ventana que se abre, marca la casilla "Evaluador de Instagram" ("Evaluador de Instagram", NO "Evaluador")
+6. En el campo de búsqueda de abajo → escribe el nombre de usuario de la cuenta de Instagram donde quieres usar PublishMe → luego te aparecerá tu cuenta de instagram → hazle click
 7. Dale clic a "Agregar".
-8. Ahora entra a https://www.instagram.com/ e inicia sesion con la misma cuenta de instagram.
+8. Ahora entra a https://www.instagram.com/ (te recomiendo en computadora) e inicia sesión con la cuenta de instagram donde quieres usar PublishMe.
 9. Dale a las "tres rayitas" → "Configuración" → busca y entra a "Permisos del sitio web"
 10. Dale a "Aplicaciones y sitios web"
 11. Dale a "Invitaciones para evaluadores"
 12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"
-Listo, ahora con este paso, ya no te a aparecerá el error de "Rol de desarrollador insuficiente" cuando vayamos a generar el token
+Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de desarrollador insuficiente" cuando vayamos a generar el token para nuestro sistema
 ****
 **8. Genera tu token de acceso**
 1. Vuelve a darle a "Casos de uso" → "Personalizar"
-2. Baja hasta la sección "2. Generar tokens de acceso" → y dale a "Agregar cuenta" → y luego dale a "Continuar" en el aviso que aparece
-3. Se abre una ventana de Instagram: Inicia sesion con la cuenta de instagram donde quieres usar PublishMe
-4. Te va a aparecer una pantalla pidiendo permisos — dale "Permitir".
-5. Luego dale al texto en azul que dice "Generar token"
-6. Inicia sesion nuavemente con la cuenta de instagram donde quieres usar PublishMe
-7. Te va a aparecer una nueva pantalla con otros permisos (si quieres lo lees) → y luego le das a "Permitir"
+2. Baja hasta la sección "2. Generar tokens de acceso" → dale al icono de desplegar "⌄"  → y dale a "Generar token" en letras azul →
+3. Inicia sesion con la cuenta de instagram donde quieres usar PublishMe
+4. Te va a aparecer una pantalla con permisos en ella → dale "Permitir".
 8. Te va aparecerá una tarjeta
-9. Dale click a la casilla alado de "Entendido"
-10. Dale al boton "Copiar"
-11. Abre un bloc de notas y pega eso que copiaste
-12. Listo, acabas de obtener EL TOKEN DE ACCESO. Guarda el bloc de notas y no lo compartas con nadie
+9. Dale click a la casilla "Entendido"
+10. Luego dale al boton "Copiar"
+11. Abre un bloc de notas y haz CTRL + V
+12. Y nombra lo que pegaste, poniéndole al lado "IG_ACCESS_TOKEN"
+13. Listo, acabas de obtener EL TOKEN DE ACCESO y darle un nombre a ese token para no perderlo. No lo compartas con nadie y GUARDA EL BLOC DE NOTAS!!!
 Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **9. Consigue tu IG_USER_ID**
@@ -188,10 +186,10 @@ Ahora ten cuidado haciendo exactamente lo que te digo...
 En "Name" se pone el nombre que desees al secreto y en "Secret" se pone el valor que debemos ponerle al secreto
 Ahora
 7. En Name pon IG_ACCESS_TOKEN y en Secret pones el token del paso 8 y darle a "Add secret"
-8. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
-9. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
-10. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
-11. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
+8. En Name pones IG_USER_ID y en Secret pones el token del paso 8
+9. En Name pones REEL_MEDIA_ID y en Secret pones el token del paso 8
+10. En Name pones TELEGRAM_BOT_TOKEN y en Secret pones el token del paso 8
+11. En Name pones TELEGRAM_CHAT_ID y en Secret pones el token del paso 8
 Listo, lo que acabamos de hacer es integrar las 5 variables en el sistema. Ahora solo falta hacer que el sistema guarde su propio progreso, permitir que el sistema pueda subir videos y caption y disparar automáticamente el sistema para que no tengas que hacerlo manualmente
 ****
 **14. Haz que el sistema guarde su propio progreso. Activa permisos de escritura para Actions**
